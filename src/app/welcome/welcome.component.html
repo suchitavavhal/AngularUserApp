@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 ps-5">
+       
+        <h4 class="h1Style">USER REGISTRATION</h4>
+        <form #userForm="ngForm" (ngSubmit)="onUserCreate(userForm.value, userForm)" class="formCss">
+
+          
+        <input type="text" name="userName" placeholder="User Name" ngModel><br>
+        <input type="text" name="age" placeholder="Age" ngModel><br>
+        <input type="text" name="score" placeholder="Score" ngModel><br>
+        <button type="submit"color="accent">Add New User</button>
+      </form>
+      </div>
+    </div>
+  </div>

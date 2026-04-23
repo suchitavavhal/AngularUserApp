@@ -1,0 +1,11 @@
+.userDetails{
+    display: flex;
+justify-content: center;
+}
+
+.h1Style {
+    text-align: center;
+    margin-top: 47px;
+    font-size: x-large;
+    margin-bottom: 45px;
+}

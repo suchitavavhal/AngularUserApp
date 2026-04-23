@@ -1,0 +1,17 @@
+
+<div>
+<mat-toolbar color="primary" class="navbar">
+ 
+  <!-- <div> -->
+    
+    <span><a routerLinkActive="activebutton" [routerLink]="['welcome']" class="menuHeading">New User</a></span>
+    <span><a routerLinkActive="activebutton" [routerLink]="['users']" class="menuHeading">Users</a></span>
+    <span><a routerLinkActive="activebutton" [routerLink]="['winners']" class="menuHeading">Winners</a></span>
+    <span><a routerLinkActive="activebutton" [routerLink]="['toppers']"class="menuHeading">Toppers</a></span>
+  <!-- </div> -->
+</mat-toolbar>
+<div>
+
+  <router-outlet></router-outlet>
+</div>
+</div>

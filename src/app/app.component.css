@@ -1,0 +1,10 @@
+.navbar{
+    justify-content: space-evenly;
+}
+span{
+    padding-right: 1rem;
+}
+.menuHeading{
+    color:aliceblue;
+    text-decoration: none;
+}
